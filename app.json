@@ -1,4 +1,47 @@
 {
-  "name": "DrishyacityWebview",
-  "displayName": "DrishyacityWebview"
+  "expo": {
+    "name": "Drishyacity",
+    "slug": "drishyacity-webview",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.drishyacity.viraj"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "icon": "./assets/icon.png",
+      "package": "com.drishyacity.viraj",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "newArchEnabled": true,
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-splash-screen"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "29716d31-172c-4b34-9550-02aa0aa3cc6a"
+      }
+    }
+  }
 }
